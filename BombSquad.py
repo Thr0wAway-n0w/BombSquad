@@ -1,6 +1,8 @@
 import subprocess
 import time
 import os
+os.system("pipx run pip install pyfiglet")
+os.system("pipx run pip install colorama")
 import pyfiglet
 from colorama import init, Fore
 
