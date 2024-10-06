@@ -5,7 +5,6 @@ import webbrowser
 import time
 from time import sleep
 os.system("sudo apt install python3-requests")
-import requests
 
 def header():
     print('''
