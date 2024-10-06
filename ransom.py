@@ -1,7 +1,6 @@
 import os
 import subprocess
 import math
-import requests
 import webbrowser
 import time
 from time import sleep
