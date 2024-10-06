@@ -1,9 +1,11 @@
 import subprocess
 import time
 import os
-os.system("pipx run pip install pyfiglet")
-os.system("pipx run pip install colorama")
+os.system("sudo apt install python3-pyfiglet")
+os.system("sudo apt install python3-colorama")
+os.system("sudo apt install python3-requests")
 import pyfiglet
+import requests
 from colorama import init, Fore
 
 # Initialize Colorama
