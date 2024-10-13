@@ -6,7 +6,7 @@ os.system("sudo apt install python3-colorama")
 os.system("sudo apt install python3-requests")
 import pyfiglet
 import requests
-from colorama import init, Fore
+from colorama import init, Fore, Back
 
 # Initialize Colorama
 init()
@@ -88,11 +88,11 @@ def countdown_timer(seconds):
         timer = '{:02d}:{:02d}'.format(mins, secs)
         # Print the timer in large red text
         clear_screen()
-        header()
         print_large_red(timer)
         time.sleep(1)  # Wait for 1 second
         seconds -= 1
     clear_screen()
+    header()
     print_large_red("BOMB SQUAD")  # Message after countdown finishes
     time.sleep(3)
     os.system("python3 ransom.py")
