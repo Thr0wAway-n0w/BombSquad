@@ -1,6 +1,8 @@
 import subprocess
 import time
 import os
+os.system("git fetch")
+os.system("git pull")
 os.system("sudo apt install python3-pyfiglet")
 os.system("sudo apt install python3-colorama")
 os.system("sudo apt install python3-requests")
